@@ -1,10 +1,12 @@
-<div>
+<div class="container">
     <h1>Quotes</h1>
     <ul>
         <div *ngFor='let quote of quotes; let i = index'>
             <li>{{quote.name}}</li>
             <button (click)='toggleDetails(i)'>Details</button>
-        <app-quote-detail *ngIf='quote.showDetails' [quote]='quote'></app-quote-detail>
+        <app-quote-detail *ngIf='quote.showDetails' [quote]='quote' (isRead)= 'readQuote($event,i)'></app-quote-detail>
         </div>
     </ul>
+
+    <app-quote-form></app-quote-form>
 </div>

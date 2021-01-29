@@ -1,21 +1,17 @@
 
+<style>
+#form{
+    border: 3px solid white;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+}
+</style>
+
 
 <div class="container-fluid">
 
     <h1>Quotes</h1>
         
-    <!-- <div class="card text-center">
-        <div class="card-header">
-            Featured
-        </div>
-        <div class="card-body">
-            <p class="card-text">{{quote.name}}</p>
-            <button (click)='toggleDetails(i)' class="btn btn-secondary">Details</button>
-            <app-quote-detail *ngIf='quote.showDetails' [quote]='quote' (isRead)='readQuote($event,i)'></app-quote-detail>
-        </div>
-        
-    </div>
-  -->
   <ul>
 <div *ngFor='let quote of quotes; let i = index'>
     <li>{{quote.name}}</li>
@@ -24,9 +20,13 @@
 </div>
 </ul>
 
+
+
 <div class="row">
 <div class="col-md-12 form">
+ <div class="container" id="form">
     <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+</div>
 </div>
    
 </div>

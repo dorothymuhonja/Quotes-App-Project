@@ -19,6 +19,13 @@ export class QuoteComponent implements OnInit {
  
  new Quote (5, `You either die a hero or live long enough to see yourself become a villain`, `From Batman The Dark Knight`, `Dorothy Muhonja`, new Date(2021, 1, 29 )),
 ];
+// adding a new quote
+addNewQuote(quote){
+  let quoteLength = this.quotes.length;
+  quote.id = quoteLength+1;
+  quote.postedOn = new Date(quote.postedOn)
+  this.quotes.push(quote)
+}
 // for toggling details button
 toggleDetails(index) {
   this.quotes[index].showDetails = !this.quotes[index].showDetails;

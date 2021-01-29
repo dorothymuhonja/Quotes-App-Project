@@ -11,7 +11,7 @@ export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
    new Quote (1,`Hope is like a broken pen, wont work, but you hold on to it since it is the only pen you've got`,`Fawe`,`Dorothy Muhonja`, new Date(2021,1,29)),
 
-   new Quote (2,`I see unconditional love when I look at my mother`,`Unknown`,`Dorothy Muhonja`, new Date(2021,1,29)),
+   new Quote (2,`Ask me what unconditional love is, I'll show you my mom`,`Unknown`,`Dorothy Muhonja`, new Date(2021,1,29)),
 
  new Quote (3,`Knowledge is power is time is money`, `Rikkard Ambrose`,`Dorothy Muhonja`, new Date(2021,1,29)),
 

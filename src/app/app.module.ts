@@ -8,6 +8,8 @@ import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 
+import {APP_BASE_HREF} from '@angular/common';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,9 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    {provide: APP_BASE_HREF, useValue : '/'}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -3,6 +3,10 @@
 h1{
     text-align: center;
 }
+.card{
+    padding: 20px;
+    margin: 10px;
+}
 #form{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -23,7 +27,7 @@ h1{
     <div class="card-body">
     <p>{{quote.name}}</p>
     </div>
-    
+
     <button (click)='toggleDetails(i)' class="btn btn-secondary">Details</button>
     <app-quote-detail *ngIf='quote.showDetails' [quote]='quote' (isRead)='readQuote($event,i)'></app-quote-detail>
   </div>

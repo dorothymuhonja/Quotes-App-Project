@@ -16,7 +16,8 @@ This is an app where a user can add random quotes through a form.
 # How to run
 * Click on this [Link](https://github.com/dorothymuhonja/Quotes-Project.git) to access my git hub Delani-studio repositpory.
 * Fork the repo or clone the project to your local machine
-* You can also access the web application directly using this [live link]()
+* Access the live link on the about section in my repository
+
 
 ### Development server
 
@@ -37,7 +38,7 @@ The generated quote disappears when a user reloads the browser.
 
 ## Page Screenshots
 ![quotes](src/assets/images/quotes.png)
- ![form](src/assets/form.png)
+ ![form](src/assets/images/form.png)
 
 ## Contact information
 Email: dorothymuhonja7@gmail.com

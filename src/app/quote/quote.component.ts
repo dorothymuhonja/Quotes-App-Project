@@ -15,7 +15,7 @@ export class QuoteComponent implements OnInit {
 
  new Quote (3,`Knowledge is power is time is money`, `Rikkard Ambrose`,`Dorothy Muhonja`, new Date(2021,1,29),0,0),
 
-  new Quote (4,`God gives us ugliness so we don't take the beautiful things in life fot granted `,`From Ugly Love`,`Dorothy Muhonja`,new Date(2021,1,29),0,0),
+  new Quote (4,`God gives us ugliness so we don't take the beautiful things in life for granted `,`From Ugly Love`,`Dorothy Muhonja`,new Date(2021,1,29),0,0),
  
  new Quote (5, `You either die a hero or live long enough to see yourself become a villain`, `From Batman The Dark Knight`, `Dorothy Muhonja`, new Date(2021, 1, 29 ),0,0),
 ];

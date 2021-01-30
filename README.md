@@ -1,27 +1,49 @@
-# QuotesProject
+# Quotes
+### By Dorothy Muhonja
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 
-## Development server
+## Description
+This is an app where a user can add random quotes through a form.
+
+# set up instructions
+### Requirements
+* Code editor ie Visual Studio/Atom Notepad etc
+* Angular cli
+* Node 
+* Latest web browser
+
+# How to run
+* Click on this [Link](https://github.com/dorothymuhonja/Quotes-Project.git) to access my git hub Delani-studio repositpory.
+* Fork the repo or clone the project to your local machine
+* You can also access the web application directly using this [live link]()
+
+### Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## BDD(Behavior Driven Development)
+* User can add a random quote through a form
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Known Bugs
+The generated quote disappears when a user reloads the browser.
 
-## Build
+# Technologies Used
+* Angular
+* Typescript
+* html
+* css
+* bootstrap
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Page Screenshots
+![quotes](src/assets/images/quotes.png)
+ ![form](src/assets/form.png)
 
-## Running unit tests
+## Contact information
+Email: dorothymuhonja7@gmail.com
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## License and Copyright
+Copyright (c) 2021 Dorothy Muhonja
 
-## Running end-to-end tests
+[MIT License](LICENSE)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

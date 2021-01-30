@@ -9,22 +9,22 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
   // for displaying quotes
   quotes: Quote[] = [
-   new Quote (1,`Hope is like a broken pen, wont work, but you hold on to it since it is the only pen you've got`,`Fawe`,`Dorothy Muhonja`, new Date(2021,1,29)),
+   new Quote (1,`Hope is like a broken pen, wont work, but you hold on to it since it is the only pen you've got`,`Fawe`,`Dorothy Muhonja`, new Date(2021,1,29), 0,0),
 
-   new Quote (2,`Ask me what unconditional love is, I'll show you my mom`,`Unknown`,`Dorothy Muhonja`, new Date(2021,1,29)),
+   new Quote (2,`Ask me what unconditional love is, I'll show you my mom`,`Unknown`,`Dorothy Muhonja`, new Date(2021,1,29),0,0),
 
- new Quote (3,`Knowledge is power is time is money`, `Rikkard Ambrose`,`Dorothy Muhonja`, new Date(2021,1,29)),
+ new Quote (3,`Knowledge is power is time is money`, `Rikkard Ambrose`,`Dorothy Muhonja`, new Date(2021,1,29),0,0),
 
-  new Quote (4,`God gives us ugliness so we don't take the beautiful things in life fot granted `,`From Ugly Love`,`Dorothy Muhonja`,new Date(2021,1,29)),
+  new Quote (4,`God gives us ugliness so we don't take the beautiful things in life fot granted `,`From Ugly Love`,`Dorothy Muhonja`,new Date(2021,1,29),0,0),
  
- new Quote (5, `You either die a hero or live long enough to see yourself become a villain`, `From Batman The Dark Knight`, `Dorothy Muhonja`, new Date(2021, 1, 29 )),
+ new Quote (5, `You either die a hero or live long enough to see yourself become a villain`, `From Batman The Dark Knight`, `Dorothy Muhonja`, new Date(2021, 1, 29 ),0,0),
 ];
 // adding a new quote
 addNewQuote(quote){
   let quoteLength = this.quotes.length;
   quote.id = quoteLength+1;
   quote.postedOn = new Date(quote.postedOn)
-  this.quotes.push(quote)
+  this.quotes.unshift(quote)
 }
 // for toggling details button
 toggleDetails(index) {

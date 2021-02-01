@@ -9,7 +9,7 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
   // for displaying quotes
   quotes: Quote[] = [
-   new Quote (1,`Hope is like a broken pen, wont work, but you hold on to it since it is the only pen you've got`,`Fawe`,`Dorothy Muhonja`, new Date(2021,1,29), 0,0),
+   new Quote (1,`Hope is like a broken pen, won't work, but you hold on to it since it's the only pen you've got`,`Fawe`,`Dorothy Muhonja`, new Date(2021,1,29), 0,0),
 
    new Quote (2,`Ask me what unconditional love is, I'll show you my mom`,`Unknown`,`Dorothy Muhonja`, new Date(2021,1,29),0,0),
 

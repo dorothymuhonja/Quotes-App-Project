@@ -14,7 +14,7 @@ This is an app where a user can add random quotes through a form.
 * Latest web browser
 
 # How to run
-* Click on this [Link](https://github.com/dorothymuhonja/Quotes-Project.git) to access my git hub Delani-studio repositpory.
+* Click on this [Link](https://github.com/dorothymuhonja/Quotes-Project.git) to access my git hub Quotes app repositpory.
 * Fork the repo or clone the project to your local machine
 * Click this [link](https://quotes-app-angular.herokuapp.com/) to view the live page
 
